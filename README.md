@@ -2,9 +2,9 @@
 
 # Jenkins SSH Slave with Docker inside
 
-SSH Slave with Docker inside
+SSH Slave with Docker and Docker compose inside
 
-`uudashr/jenkins-ssh-slave-docker`
+`glendemon/jenkins-ssh-slave-docker`
 
 Docker daemon address defined by environment variable `DOCKER_HOST` using default `tcp://docker:2375`.
 
@@ -13,4 +13,4 @@ DOCKER_HOST=tcp://docker:2375
 ```
 
 Reference
-- https://github.com/uudashr/jenkins-docker
+- https://github.com/uudashr/jenkins-ssh-slave-docker
